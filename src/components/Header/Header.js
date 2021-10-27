@@ -1,7 +1,9 @@
+import "./Header.css"
+
 const Header = () => {
     return <header>
         <nav>
-            <ul>
+            <ul className="navLinksContainer">
                 <li>Apple</li>
                 <li>Store</li>
                 <li>Mac</li>
