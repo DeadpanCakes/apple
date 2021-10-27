@@ -1,0 +1,30 @@
+.hero {
+  position: relative;
+  height: 70vh;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../../assets/your_verse_hero.jpg");
+  background-position: bottom;
+}
+
+.heroTxt {
+  position: absolute;
+  bottom: 50%;
+  width: 864px;
+  margin-left: 288px;
+  color: white;
+}
+
+.heroTxt>* {
+    margin: 20px;
+}
+
+.heroLink {
+  color: white;
+  text-decoration: none;
+}
+
+.heroLink:hover {
+  text-decoration: underline;
+}
