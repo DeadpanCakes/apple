@@ -2,5 +2,6 @@
   display: grid;
   grid-template-rows: auto 10fr 1fr;
   min-height: 100%;
-  justify-items: center;
+  justify-items: space-around;
+  justify-content: center;
 }
