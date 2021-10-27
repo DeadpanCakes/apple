@@ -1,3 +1,5 @@
+import "./Footer.css";
+
 const Footer = () => {
   return (
     <footer>
@@ -16,7 +18,7 @@ const Footer = () => {
         </a>
         .
       </p>
-      <ul>
+      <ul className="footerLinks">
         <li>
           <a href="https://web.archive.org/web/20140301004610/http://www.apple.com/sitemap/">
             Site Map
