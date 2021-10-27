@@ -5,3 +5,11 @@
   justify-items: space-around;
   justify-content: center;
 }
+
+.bannerNav {
+  display: flex;
+}
+
+.bannerNav > * {
+  min-width: 360px;
+}

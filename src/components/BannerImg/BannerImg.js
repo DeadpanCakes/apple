@@ -1,8 +1,12 @@
-const BannerImg = ({ img, src, link }) => {
+import "./BannerImg.css";
+
+const BannerImg = ({ img, link }) => {
   return (
-    <a href={link}>
-      <div></div>
-    </a>
+    <li className="bannerImg" style={{ background: `url(${img})` }}>
+      <a href={link}>
+        <div></div>
+      </a>
+    </li>
   );
 };
 
